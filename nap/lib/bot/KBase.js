@@ -135,7 +135,9 @@ KBase = {
         Utils.log("shortList", shortList);
 
         var emojiList = [':zero:', ':one:', ':two:', ':three:', ':four:', 
-                            ':five:', ':six:', ':seven:', ':eight:', ':nine:'];
+                            ':five:', ':six:', ':seven:', ':eight:', ':nine:']; 
+
+        // change this to start from 1 instead of 0 ?
 
         var findResults = "";
         for (var i = 0; i < shortList.length; i++) {
